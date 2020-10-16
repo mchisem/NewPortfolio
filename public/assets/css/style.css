@@ -5,6 +5,9 @@
     scroll-behavior: smooth;
 }
 
+/***********************************/
+/* navbar */
+/***********************************/
 .navbar-dark .navbar-brand {
     color: black;
 }
@@ -34,6 +37,132 @@
     border-radius: .25rem;
 }
 
+/***********************************/
+/* Cover */
+/***********************************/
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #82b1ff !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+ .navbar:not(.top-nav-collapse) {
+  background: #82b1ff !important;
+ }
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+/***********************************/
+/* About Me */
+/***********************************/
+
+
+/***********************************/
+/* Portfolio */
+/***********************************/
+/* #my-portfolio {
+    max-width: 100%;
+} */
+
 .md-pills .nav-link.active {
     background-color: #3f51b5;
   }
+
+.mt-4, .my-4 {
+    margin-top: 0 !important;
+}
+
+@media (max-width: 740px) {
+.view.overlay.zoom.z-depth-2 {
+    margin-bottom: -400px;
+}
+}
+
+
+
+
+
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; 
+  }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; 
+  }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); 
+  }
+
+  @media (max-width: 450px) {
+    .gallery {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+      -webkit-column-width: 100%;
+      -moz-column-width: 100%;
+      column-width: 100%;
+    }
+  }
+
+@media (max-width: 400px) {
+    .btn.filter {
+      padding-left: 1.1rem;
+      padding-right: 1.1rem;
+    }
+}
+  
+button.close {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    padding-right: 1rem;
+    padding-top: .6rem;
+}
+
+/***********************************/
+/* Contact Form */
+/***********************************/
+#simple-contact-form {
+    max-width: 100% !important; 
+}
+
+#maya-contact-email {
+    font-size: 20px;
+}
+
+/***********************************/
+/* footer */
+/***********************************/
+footer {
+    background-color: aliceblue;
+}
