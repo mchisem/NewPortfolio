@@ -1,7 +1,5 @@
 # NewPortfolio
 
-# WhereIsTheWeed
-
 ## Table of Contents
 
 - [Description](#description)
