@@ -74,6 +74,17 @@ h5 {
   letter-spacing: 3px;
 }
 
+.btn.btn-light-blue.btn-lg.btn-rounded {
+    background-color:#82b1ff;
+    background-color: transparent !important;
+}
+
+.btn.btn-indigo.btn-lg.btn-rounded {
+    background-color: lightgray;
+    background-color: transparent !important;
+}
+
+
 /***********************************/
 /* About Me */
 /***********************************/

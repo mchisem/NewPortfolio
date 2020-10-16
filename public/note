@@ -1,128 +1,125 @@
-<!-- Section: Contact v.3 -->
-<section class="contact-section my-5">
+<footer class="page-footer font-small mdb-color pt-4">
 
-  <!-- Form with header -->
-  <div class="card">
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
 
-    <!-- Grid row -->
-    <div class="row">
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
 
       <!-- Grid column -->
-      <div class="col-lg-8">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+      </div>
+      <!-- Grid column -->
 
-        <div class="card-body form" id="contact-form" action="mail.php" method="POST">
+      <hr class="w-100 clearfix d-md-none">
 
-          <!-- Header -->
-          <h3 class="mt-4"><i class="fas fa-envelope pr-2"></i>Write to me!</h3>
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Links</h6>
+        <p>
+          <a href="#about-me">About</a>
+        </p>
+        <p>
+          <a href="#testimonials">Testimonials</a>
+        </p>
+        <p>
+          <a href="#my-portfolio">Portfolio</a>
+        </p>
+        <p>
+          <a href="#!">Resume</a>
+        </p>
+      </div>
+      <!-- Grid column -->
 
-          <!-- Grid row -->
-          <div class="row">
+      <hr class="w-100 clearfix d-md-none">
 
-            <!-- Grid column -->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="form-contact-name" name="name" class="form-control">
-                <label for="form-contact-name" class="">Your name</label>
-              </div>
-            </div>
-            <!-- Grid column -->
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Websites</h6>
+        <p>
+          <a href="#!">Your Account</a>
+        </p>
+        <p>
+          <a href="#!">Become an Affiliate</a>
+        </p>
+        <p>
+          <a href="#!">Shipping Rates</a>
+        </p>
+        <p>
+          <a href="#!">Help</a>
+        </p>
+      </div>
 
-            <!-- Grid column -->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="form-contact-email" name="email" class="form-control">
-                <label for="form-contact-email" class="">Your email</label>
-              </div>
-            </div>
-            <!-- Grid column -->
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
 
-          </div>
-          <!-- Grid row -->
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <p>
+          <i class="fas fa-home mr-3"></i> New York, NY 10012, US
+        </p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@gmail.com
+        </p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 88
+        </p>
+      </div>
+      <!-- Grid column -->
 
-          <!-- Grid row -->
-          <div class="row">
+    </div>
+    <!-- Footer links -->
 
-            <!-- Grid column -->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="form-contact-phone" name="phone" class="form-control">
-                <label for="form-contact-phone" class="">Your phone</label>
-              </div>
-            </div>
-            <!-- Grid column -->
+    <hr>
 
-            <!-- Grid column -->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="form-contact-subject" name="subject" class="form-control">
-                <label for="form-contact-subject" class="">Your subject</label>
-              </div>
-            </div>
-            <!-- Grid column -->
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
 
-          </div>
-          <!-- Grid row -->
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
 
-          <!-- Grid row -->
-          <div class="row">
-
-            <!-- Grid column -->
-            <div class="col-md-12">
-              <div class="md-form mb-0">
-                <textarea id="form-contact-message" name="message" class="form-control md-textarea" rows="3"></textarea>
-                <label for="form-contact-message">Your message</label>
-                <a class="btn-floating btn-lg blue" onclick="validateForm();">
-                  <i class="far fa-paper-plane"></i>
-                </a>
-                <div class="status"></div>
-              </div>
-            </div>
-            <!-- Grid column -->
-
-          </div>
-          <!-- Grid row -->
-
-        </div>
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="./index.html">
+            <strong> Maya Chisem</strong>
+          </a>
+        </p>
 
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-lg-4">
+      <div class="col-md-5 col-lg-4 ml-lg-0">
 
-        <div class="card-body contact text-center h-100 white-text">
-
-          <h3 class="my-4 pb-2">Contact information</h3>
-          <ul class="text-lg-left list-unstyled ml-4">
-            <li>
-              <p><i class="fas fa-map-marker-alt pr-2"></i>New York, 94126, USA</p>
-            </li>
-            <li>
-              <p><i class="fas fa-phone pr-2"></i>+ 01 234 567 89</p>
-            </li>
-            <li>
-              <p><i class="fas fa-envelope pr-2"></i>contact@example.com</p>
-            </li>
-          </ul>
-          <hr class="hr-light my-4">
-          <ul class="list-inline text-center list-unstyled">
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
             <li class="list-inline-item">
-              <a class="p-2 fa-lg tw-ic">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
                 <i class="fab fa-twitter"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="p-2 fa-lg li-ic">
-                <i class="fab fa-linkedin-in"> </i>
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-google-plus-g"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="p-2 fa-lg ins-ic">
-                <i class="fab fa-instagram"> </i>
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
           </ul>
-
         </div>
 
       </div>
@@ -132,6 +129,7 @@
     <!-- Grid row -->
 
   </div>
-  <!-- Form with header -->
+  <!-- Footer Links -->
 
-</section>
+</footer>
+<!-- Footer -->

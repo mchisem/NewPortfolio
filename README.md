@@ -25,7 +25,7 @@ Data provided by []()
 
 ## Deployed Project
 
-Deployed version of this project available [here](https://mchisem.github.io/NewPortfolio/public/index.html)
+Deployed version of this project is available [here](https://mchisem.github.io/NewPortfolio/public/index.html)
 
 ## Contributors
 
