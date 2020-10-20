@@ -19,10 +19,6 @@
 
 - mdbootstrap
 
-## Credits
-
-Data provided by []()
-
 ## Deployed Project
 
 Deployed version of this project is available [here](https://mchisem.github.io/NewPortfolio/public/index.html)
