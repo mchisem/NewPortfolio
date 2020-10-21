@@ -1,3 +1,8 @@
+.container.my-5.py-5.z-depth-1 {
+    margin-top: 75%;
+    transform: translate(0, 20%);
+}
+
 .row h3 {
     font-size: 40px;
 }
@@ -24,5 +29,5 @@
 }
 
 footer {
-    margin-top: 5% !important;
+    margin-top: 10% !important;
 }
