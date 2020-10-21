@@ -4,7 +4,6 @@
 
 - [Description](#description)
 - [Installation](#installation)
-- [Credits](#credits)
 - [Deployed](#deployed)
 - [Contributors](#contributors)
 - [Questions](#questions)
