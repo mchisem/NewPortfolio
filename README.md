@@ -10,17 +10,22 @@
 
 ## Description
 
+An updated version of portfolio showcasing my work as both web developer and a photographer. I deployed this version using Express and Heroku.
+
 ## Installation
 
 `npm install`
 
 ## NPM Dependencies
 
+- compression
+- express
 - mdbootstrap
+- stack
 
 ## Deployed Project
 
-Deployed version of this project is available [here](https://mchisem.github.io/NewPortfolio/public/index.html)
+Deployed version of this project is available [here](https://mayaandhernewportfolio.herokuapp.com/)
 
 ## Contributors
 
