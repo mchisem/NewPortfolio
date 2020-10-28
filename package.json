@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/mchisem/NewPortfolio#readme",
   "dependencies": {
-    "mdbootstrap": "^4.19.1"
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mdbootstrap": "^4.19.1",
+    "stack": "^0.1.0"
   }
 }
