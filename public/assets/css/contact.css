@@ -1,6 +1,8 @@
 .container.my-5.py-5.z-depth-1 {
-    margin-top: 75%;
-    transform: translate(0, 20%);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .row h3 {
@@ -28,6 +30,26 @@
     padding-left: 25px;
 }
 
+/***********************************/
+/*            Footer           */
+/***********************************/
 footer {
-    margin-top: 10% !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
+
+/***********************************/
+/***********************************/
+/*        Media Queries         */
+/***********************************/
+/***********************************/
+@media (max-width: 740px) {
+    html, body, header, .view {
+        height: auto;
+    }
+    }
+    
+
+@media(max-width:600px){.container.my-5.py-5.z-depth-1{top:70%;}footer{display: none;}}
